@@ -4,10 +4,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public enum Profile {
-    MAINNET("https://nodes.wavesnodes.com"),
-    TESTNET("https://nodes-testnet.wavesnodes.com"),
-    STAGENET("https://nodes-stagenet.wavesnodes.com"),
-    LOCAL("http://127.0.0.1:6869");
+    MAINNET("https://nodes.mdmcoin.com"),
+    TESTNET("https://tstnode.mdmcoin.com"),
+    LOCAL("http://127.0.0.1:7879");
 
     private final URI uri;
 
